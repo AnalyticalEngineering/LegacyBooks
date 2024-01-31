@@ -77,7 +77,7 @@ struct EditBookView: View {
             }
             Divider()
             LabeledContent {
-                RatingsView()
+                RatingsView(maxRating: 5, currentRating: $rating, width: 25)
             } label: {
                 Text("Rating")
             }
@@ -138,5 +138,12 @@ struct EditBookView: View {
         || dateAdded != book.dateAdded
         || dateStarted != book.dateStarted
         || dateCompleted != book.dateCompleted
+    }
+}
+#Preview{
+    let preview = Preview(Book.self)
+    return NavigationStack{
+        EditBookView(book: Book.sampleBooks[4])
+            .modelContainer(preview.container)
     }
 }

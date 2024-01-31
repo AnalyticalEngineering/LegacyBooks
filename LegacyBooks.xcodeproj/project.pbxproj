@@ -19,6 +19,8 @@
 		12114E2E2B69676400BB6791 /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12114E2D2B69676400BB6791 /* HapticsManager.swift */; };
 		12114E322B6984A200BB6791 /* EditBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12114E312B6984A200BB6791 /* EditBookView.swift */; };
 		12114E342B6988A400BB6791 /* RatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12114E332B6988A400BB6791 /* RatingsView.swift */; };
+		12E4E6532B6B0A8000FEAF57 /* BookSamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4E6522B6B0A8000FEAF57 /* BookSamples.swift */; };
+		12E4E6552B6B0BE000FEAF57 /* PreviewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4E6542B6B0BE000FEAF57 /* PreviewContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		12114E2D2B69676400BB6791 /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
 		12114E312B6984A200BB6791 /* EditBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBookView.swift; sourceTree = "<group>"; };
 		12114E332B6988A400BB6791 /* RatingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsView.swift; sourceTree = "<group>"; };
+		12E4E6522B6B0A8000FEAF57 /* BookSamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSamples.swift; sourceTree = "<group>"; };
+		12E4E6542B6B0BE000FEAF57 /* PreviewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,8 @@
 			isa = PBXGroup;
 			children = (
 				12114E022B695D5500BB6791 /* Preview Assets.xcassets */,
+				12E4E6522B6B0A8000FEAF57 /* BookSamples.swift */,
+				12E4E6542B6B0BE000FEAF57 /* PreviewContainer.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -306,10 +312,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12E4E6552B6B0BE000FEAF57 /* PreviewContainer.swift in Sources */,
 				12114DFD2B695D5300BB6791 /* BookListView.swift in Sources */,
 				12114E342B6988A400BB6791 /* RatingsView.swift in Sources */,
 				12114DFB2B695D5300BB6791 /* LegacyBooksApp.swift in Sources */,
 				12114E292B695D8D00BB6791 /* Book.swift in Sources */,
+				12E4E6532B6B0A8000FEAF57 /* BookSamples.swift in Sources */,
 				12114E322B6984A200BB6791 /* EditBookView.swift in Sources */,
 				12114E2E2B69676400BB6791 /* HapticsManager.swift in Sources */,
 				12114E2B2B69648A00BB6791 /* AddNewBookView.swift in Sources */,

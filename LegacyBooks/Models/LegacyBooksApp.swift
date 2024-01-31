@@ -10,14 +10,27 @@ import SwiftData
 
 @main
 struct LegacyBooksApp: App {
+    let container: ModelContainer
+    
+    
     var body: some Scene {
         WindowGroup {
             BookListView()
         }
-        .modelContainer(for:  Book.self)
+        .modelContainer(container)
     }
-        init() {
-            print(URL.applicationSupportDirectory.path(percentEncoded: false))
+    init() {
+     
+        let schema = Schema([Book.self])
+        let config = ModelConfiguration("My Books", schema: schema)
+        do{
+            container = try ModelContainer(for: schema, configurations: config)
+        }catch{
+            fatalError("Could not configure container")
+        }
+        
+        print(URL.applicationSupportDirectory.path(percentEncoded: false))
+               
         }
     }
 
