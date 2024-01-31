@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		12114DFB2B695D5300BB6791 /* LegacyBooksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12114DFA2B695D5300BB6791 /* LegacyBooksApp.swift */; };
-		12114DFD2B695D5300BB6791 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12114DFC2B695D5300BB6791 /* ContentView.swift */; };
+		12114DFD2B695D5300BB6791 /* BookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12114DFC2B695D5300BB6791 /* BookListView.swift */; };
 		12114DFF2B695D5500BB6791 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12114DFE2B695D5500BB6791 /* Assets.xcassets */; };
 		12114E032B695D5500BB6791 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12114E022B695D5500BB6791 /* Preview Assets.xcassets */; };
 		12114E0D2B695D5500BB6791 /* LegacyBooksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12114E0C2B695D5500BB6791 /* LegacyBooksTests.swift */; };
 		12114E172B695D5500BB6791 /* LegacyBooksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12114E162B695D5500BB6791 /* LegacyBooksUITests.swift */; };
 		12114E192B695D5500BB6791 /* LegacyBooksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12114E182B695D5500BB6791 /* LegacyBooksUITestsLaunchTests.swift */; };
+		12114E292B695D8D00BB6791 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12114E282B695D8D00BB6791 /* Book.swift */; };
+		12114E2B2B69648A00BB6791 /* AddNewBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12114E2A2B69648A00BB6791 /* AddNewBookView.swift */; };
+		12114E2E2B69676400BB6791 /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12114E2D2B69676400BB6791 /* HapticsManager.swift */; };
+		12114E322B6984A200BB6791 /* EditBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12114E312B6984A200BB6791 /* EditBookView.swift */; };
+		12114E342B6988A400BB6791 /* RatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12114E332B6988A400BB6791 /* RatingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* Begin PBXFileReference section */
 		12114DF72B695D5300BB6791 /* LegacyBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LegacyBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12114DFA2B695D5300BB6791 /* LegacyBooksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegacyBooksApp.swift; sourceTree = "<group>"; };
-		12114DFC2B695D5300BB6791 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		12114DFC2B695D5300BB6791 /* BookListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListView.swift; sourceTree = "<group>"; };
 		12114DFE2B695D5500BB6791 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12114E002B695D5500BB6791 /* LegacyBooks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LegacyBooks.entitlements; sourceTree = "<group>"; };
 		12114E022B695D5500BB6791 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +50,11 @@
 		12114E122B695D5500BB6791 /* LegacyBooksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LegacyBooksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12114E162B695D5500BB6791 /* LegacyBooksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegacyBooksUITests.swift; sourceTree = "<group>"; };
 		12114E182B695D5500BB6791 /* LegacyBooksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegacyBooksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		12114E282B695D8D00BB6791 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		12114E2A2B69648A00BB6791 /* AddNewBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewBookView.swift; sourceTree = "<group>"; };
+		12114E2D2B69676400BB6791 /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		12114E312B6984A200BB6791 /* EditBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBookView.swift; sourceTree = "<group>"; };
+		12114E332B6988A400BB6791 /* RatingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +105,10 @@
 		12114DF92B695D5300BB6791 /* LegacyBooks */ = {
 			isa = PBXGroup;
 			children = (
-				12114DFA2B695D5300BB6791 /* LegacyBooksApp.swift */,
-				12114DFC2B695D5300BB6791 /* ContentView.swift */,
+				12114E2C2B69674F00BB6791 /* Support */,
+				12114E262B695D6A00BB6791 /* Models */,
+				12114E252B695D6000BB6791 /* Views */,
+				12114E272B695D7600BB6791 /* Screens */,
 				12114DFE2B695D5500BB6791 /* Assets.xcassets */,
 				12114E002B695D5500BB6791 /* LegacyBooks.entitlements */,
 				12114E012B695D5500BB6791 /* Preview Content */,
@@ -127,6 +139,41 @@
 				12114E182B695D5500BB6791 /* LegacyBooksUITestsLaunchTests.swift */,
 			);
 			path = LegacyBooksUITests;
+			sourceTree = "<group>";
+		};
+		12114E252B695D6000BB6791 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				12114DFC2B695D5300BB6791 /* BookListView.swift */,
+				12114E2A2B69648A00BB6791 /* AddNewBookView.swift */,
+				12114E312B6984A200BB6791 /* EditBookView.swift */,
+				12114E332B6988A400BB6791 /* RatingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		12114E262B695D6A00BB6791 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				12114DFA2B695D5300BB6791 /* LegacyBooksApp.swift */,
+				12114E282B695D8D00BB6791 /* Book.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		12114E272B695D7600BB6791 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		12114E2C2B69674F00BB6791 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				12114E2D2B69676400BB6791 /* HapticsManager.swift */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +306,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12114DFD2B695D5300BB6791 /* ContentView.swift in Sources */,
+				12114DFD2B695D5300BB6791 /* BookListView.swift in Sources */,
+				12114E342B6988A400BB6791 /* RatingsView.swift in Sources */,
 				12114DFB2B695D5300BB6791 /* LegacyBooksApp.swift in Sources */,
+				12114E292B695D8D00BB6791 /* Book.swift in Sources */,
+				12114E322B6984A200BB6791 /* EditBookView.swift in Sources */,
+				12114E2E2B69676400BB6791 /* HapticsManager.swift in Sources */,
+				12114E2B2B69648A00BB6791 /* AddNewBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
