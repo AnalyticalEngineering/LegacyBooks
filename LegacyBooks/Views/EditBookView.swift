@@ -104,7 +104,7 @@ struct EditBookView: View {
         .toolbar {
             if changed {
                 Button("Update") {
-                    book.status = status
+                    book.status = status.rawValue
                     book.rating = rating
                     book.title = title
                     book.author = author
@@ -118,7 +118,7 @@ struct EditBookView: View {
             }
         }
         .onAppear {
-            status = book.status
+            status = Status(rawValue: book.status)!
             rating = book.rating
             title = book.title
             author = book.author
@@ -130,7 +130,7 @@ struct EditBookView: View {
     }
     
     var changed: Bool {
-        status != book.status
+        status != Status(rawValue: book.status)
         || rating != book.rating
         || title != book.title
         || author != book.author

@@ -21,6 +21,7 @@
 		12114E342B6988A400BB6791 /* RatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12114E332B6988A400BB6791 /* RatingsView.swift */; };
 		12E4E6532B6B0A8000FEAF57 /* BookSamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4E6522B6B0A8000FEAF57 /* BookSamples.swift */; };
 		12E4E6552B6B0BE000FEAF57 /* PreviewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4E6542B6B0BE000FEAF57 /* PreviewContainer.swift */; };
+		12E4E6572B6B34CA00FEAF57 /* BookList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4E6562B6B34CA00FEAF57 /* BookList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		12114E332B6988A400BB6791 /* RatingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsView.swift; sourceTree = "<group>"; };
 		12E4E6522B6B0A8000FEAF57 /* BookSamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSamples.swift; sourceTree = "<group>"; };
 		12E4E6542B6B0BE000FEAF57 /* PreviewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewContainer.swift; sourceTree = "<group>"; };
+		12E4E6562B6B34CA00FEAF57 /* BookList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 				12114E2A2B69648A00BB6791 /* AddNewBookView.swift */,
 				12114E312B6984A200BB6791 /* EditBookView.swift */,
 				12114E332B6988A400BB6791 /* RatingsView.swift */,
+				12E4E6562B6B34CA00FEAF57 /* BookList.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 			files = (
 				12E4E6552B6B0BE000FEAF57 /* PreviewContainer.swift in Sources */,
 				12114DFD2B695D5300BB6791 /* BookListView.swift in Sources */,
+				12E4E6572B6B34CA00FEAF57 /* BookList.swift in Sources */,
 				12114E342B6988A400BB6791 /* RatingsView.swift in Sources */,
 				12114DFB2B695D5300BB6791 /* LegacyBooksApp.swift in Sources */,
 				12114E292B695D8D00BB6791 /* Book.swift in Sources */,
