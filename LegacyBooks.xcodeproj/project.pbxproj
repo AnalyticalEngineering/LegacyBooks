@@ -31,6 +31,8 @@
 		12E4E6692B6C43DE00FEAF57 /* GenresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4E6682B6C43DE00FEAF57 /* GenresView.swift */; };
 		12E4E66B2B6C451A00FEAF57 /* NewGenreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4E66A2B6C451A00FEAF57 /* NewGenreView.swift */; };
 		12E4E66D2B6C499500FEAF57 /* GenreStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4E66C2B6C499500FEAF57 /* GenreStackView.swift */; };
+		12E4E6712B6C6C4200FEAF57 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 12E4E6702B6C6C4200FEAF57 /* Localizable.xcstrings */; };
+		12E4E6732B6D533500FEAF57 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E4E6722B6D533500FEAF57 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +81,8 @@
 		12E4E6682B6C43DE00FEAF57 /* GenresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenresView.swift; sourceTree = "<group>"; };
 		12E4E66A2B6C451A00FEAF57 /* NewGenreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGenreView.swift; sourceTree = "<group>"; };
 		12E4E66C2B6C499500FEAF57 /* GenreStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreStackView.swift; sourceTree = "<group>"; };
+		12E4E6702B6C6C4200FEAF57 /* Localizable.xcstrings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		12E4E6722B6D533500FEAF57 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 		12114DEE2B695D5300BB6791 = {
 			isa = PBXGroup;
 			children = (
+				12E4E6722B6D533500FEAF57 /* Launch Screen.storyboard */,
+				12E4E6702B6C6C4200FEAF57 /* Localizable.xcstrings */,
 				12114DF92B695D5300BB6791 /* LegacyBooks */,
 				12114E0B2B695D5500BB6791 /* LegacyBooksTests */,
 				12114E152B695D5500BB6791 /* LegacyBooksUITests */,
@@ -322,6 +328,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"es-419",
+				pl,
 			);
 			mainGroup = 12114DEE2B695D5300BB6791;
 			productRefGroup = 12114DF82B695D5300BB6791 /* Products */;
@@ -342,6 +350,8 @@
 			files = (
 				12114E032B695D5500BB6791 /* Preview Assets.xcassets in Resources */,
 				12114DFF2B695D5500BB6791 /* Assets.xcassets in Resources */,
+				12E4E6732B6D533500FEAF57 /* Launch Screen.storyboard in Resources */,
+				12E4E6712B6C6C4200FEAF57 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,6 +564,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -592,6 +603,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

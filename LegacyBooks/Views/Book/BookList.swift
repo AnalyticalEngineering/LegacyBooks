@@ -55,7 +55,7 @@ struct BookList: View {
                                             GenresStackView(genres: genres)
                                             ScrollView(.horizontal, showsIndicators: false) {
                                                 GenresStackView(genres: genres)
-
+                                                
                                             }
                                         }
                                     }
@@ -82,5 +82,5 @@ struct BookList: View {
     return NavigationStack {
         BookList(sortOrder: .status, filterString: "")
     }
-        .modelContainer(preview.container)
+    .modelContainer(preview.container)
 }

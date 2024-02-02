@@ -124,7 +124,7 @@ struct EditBookView: View {
                     QuotesListView(book: book)
                 } label: {
                     let count = book.quotes?.count ?? 0
-                    Label("^[\(count) Quotes](inflect: true)", systemImage: "quote.opening")
+                    Label("\(count) Quotes", systemImage: "quote.opening")
                 }
             }
             .buttonStyle(.bordered)
