@@ -22,7 +22,7 @@ struct LegacyBooksApp: App {
     init() {
      
         let schema = Schema([Book.self])
-        let config = ModelConfiguration("My Books", schema: schema)
+        let config = ModelConfiguration("LegacyBooksApp", schema: schema)
         do{
             container = try ModelContainer(for: schema, configurations: config)
         }catch{

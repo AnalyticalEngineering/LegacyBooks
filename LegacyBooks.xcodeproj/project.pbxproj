@@ -83,6 +83,7 @@
 		12E4E66C2B6C499500FEAF57 /* GenreStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreStackView.swift; sourceTree = "<group>"; };
 		12E4E6702B6C6C4200FEAF57 /* Localizable.xcstrings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		12E4E6722B6D533500FEAF57 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		12E4E6742B6D5F4400FEAF57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +136,7 @@
 		12114DF92B695D5300BB6791 /* LegacyBooks */ = {
 			isa = PBXGroup;
 			children = (
+				12E4E6742B6D5F4400FEAF57 /* Info.plist */,
 				12114E2C2B69674F00BB6791 /* Extensions */,
 				12114E262B695D6A00BB6791 /* Models */,
 				12114E252B695D6000BB6791 /* Views */,
@@ -558,6 +560,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LegacyBooks/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -597,6 +600,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LegacyBooks/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
