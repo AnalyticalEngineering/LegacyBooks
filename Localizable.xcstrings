@@ -201,7 +201,11 @@
         }
       }
     },
+    "Genres" : {
+
+    },
     "Grenres" : {
+      "extractionState" : "stale",
       "localizations" : {
         "es-419" : {
           "stringUnit" : {
@@ -372,6 +376,7 @@
       }
     },
     "Summary" : {
+      "extractionState" : "stale",
       "localizations" : {
         "es-419" : {
           "stringUnit" : {
@@ -380,6 +385,9 @@
           }
         }
       }
+    },
+    "Synopsis" : {
+
     },
     "title" : {
       "localizations" : {

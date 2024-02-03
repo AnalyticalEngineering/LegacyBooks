@@ -8,24 +8,25 @@
 import SwiftUI
 import SwiftData
 
-
 @Model
 class Book {
     var title: String = ""
     var author: String = ""
-    var dateAdded:  Date = Date.now
+    var dateAdded: Date = Date.now
     var dateStarted: Date = Date.distantPast
-    var dateCompleted:  Date = Date.distantPast
+    var dateCompleted: Date = Date.distantPast
+    @Attribute(originalName: "summary")
     var synopsis: String = ""
     var rating: Int?
     var status: Status.RawValue = Status.onShelf.rawValue
     var recommendedBy: String = ""
-    
     @Relationship(deleteRule: .cascade)
     var quotes: [Quote]?
-    
     @Relationship(inverse: \Genre.books)
     var genres: [Genre]?
+    
+    @Attribute(.externalStorage)
+    var bookCover: Data?
     
     init(
         title: String,
@@ -50,7 +51,7 @@ class Book {
     }
     
     var icon: Image {
-        switch Status(rawValue: status)!  {
+        switch Status(rawValue: status)! {
         case .onShelf:
             Image(systemName: "checkmark.diamond.fill")
         case .inProgress:
@@ -61,13 +62,14 @@ class Book {
     }
 }
 
+
 enum Status: Int, Codable, Identifiable, CaseIterable {
     case onShelf, inProgress, completed
     var id: Self {
         self
     }
-    var descr: String {
-        switch self{
+    var descr: LocalizedStringResource {
+        switch self {
         case .onShelf:
             "On Shelf"
         case .inProgress:
